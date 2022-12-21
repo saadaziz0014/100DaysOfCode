@@ -1,3 +1,5 @@
+# For loop
+
 abc = "Welcome to Saad Channel"
 
 for ch in abc:
@@ -10,7 +12,7 @@ for i in range(5):
 
 print()
 
-for k in range(1,12,2):
-    print(k,end=" ")
+for k in range(1, 12, 2):
+    print(k, end=" ")
 
 print()

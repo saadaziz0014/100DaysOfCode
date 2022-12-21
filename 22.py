@@ -1,4 +1,6 @@
-a = [1,2,1,"Saad",True,45.36]
+# List
+
+a = [1, 2, 1, "Saad", True, 45.36]
 
 print(a[1:4:2])
 
