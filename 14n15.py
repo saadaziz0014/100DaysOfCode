@@ -2,19 +2,11 @@
 
 # Day 15 excercise on if
 
-# Excercise - 2
+number = int(input("Enter Number: "))
 
-import time
-
-current = time.strftime('%H')
-current = int(current)
-
-
-if (current < 12):
-  print("Good Morning")
-
-elif (current >= 12 and current < 4):
-  print("Good Afternoon")
-
+if(number > 5):
+  print("Greater than 5")
+elif(number > 100):
+  print("Greater than 100")
 else:
-  print("Hi Sir")
+  print("Other Number")
