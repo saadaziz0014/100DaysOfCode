@@ -1,3 +1,4 @@
+# set method
 myset = {1, 2, 3, 4}
 myset2 = {4, 5, 6}
 
@@ -20,6 +21,9 @@ print(myset.difference(myset2))
 myset.add(5)
 myset.add(7)
 
+myset.remove(11) # throw error if not present
+# myset.discard(11) # does not 
+
 print(myset)
 
 print(myset.pop())
@@ -28,3 +32,4 @@ print(myset)
 del myset2  # delete the set
 
 myset.clear()  # clear the set
+
